@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dark.css">
+</head>
+<body>
+     <header>
+        <a href="#"><img src="imagens/hatml.png" alt=""></a>
+        <a href="#"><img src="imagens/Js.png" alt=""></a>
+        <a href="#"><img src="imagens/css.png" alt=""></a>
+        <div class="check_dark">
+            <input type="checkbox" class="checkbox" id="toggleColor"> 
+            <label class="label" for="toggleColor">
+              <img class="fa-moon" src="imagens/lua.png" alt="">
+              <img class="fa-sun" src="imagens/sol.png" alt="">
+              <div class="ball"></div>
+            </label>
+        </div>
+    </header>
+    <div class="meio">
+        <div class="container">
+            <h2>Comece sua jornada no desenvolvimento web</h2><br>
+            <p>Se você está pronto para aprender como criar seu próprio site do zero, você está no lugar certo! Neste guia completo, você entenderá todos os passos, desde a concepção do site até a publicação online.</p>
+            <a href="javascript.html" class="button">Escolher</a>
+        </div>
+    </div>
+    
+    
+
+
+    <script>
+        const checkbox = document.getElementById('toggleColor');
+
+        checkbox.addEventListener('change', function() {
+            if (checkbox.checked) {
+                document.body.style.backgroundColor = '#292c35'; 
+                document.body.style.color = '#fafafa';
+            } else {
+                document.body.style.backgroundColor = '#fafafa'; 
+                document.body.style.color = 'black';
+            }
+        });
+    </script>
+</body>
+</html>
