@@ -8,7 +8,7 @@ function changeRecommendation(option) {
         buttonLink = 'paginas/js.html';
         break;
       case 'opcao2':
-        recommendationText = 'Você selecionou Servidor http!';
+        recommendationText = 'Você selecionou Servidor FTP!';
         buttonLink = 'paginas/servidor_http.html';
         break;
       case 'opcao3':
